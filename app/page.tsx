@@ -5,6 +5,7 @@ import { Services } from "@/components/services"
 import { Process } from "@/components/process"
 import { About } from "@/components/about"
 import { Stats } from "@/components/stats"
+import { SocialProofGallery } from "@/components/social-proof-gallery"
 import { Testimonials } from "@/components/testimonials"
 import { CTABanner } from "@/components/cta-banner"
 import { FAQ } from "@/components/faq"
@@ -23,6 +24,7 @@ export default function HomePage() {
       <Process />
       <About />
       <Stats />
+      <SocialProofGallery />
       <Testimonials />
       <CTABanner />
       <FAQ />
