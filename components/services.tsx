@@ -8,6 +8,9 @@ import {
   Wifi,
   ShieldCheck,
   Smartphone,
+  ScanBarcode,
+  Cctv,
+  DoorOpen,
 } from "lucide-react"
 
 const services = [
@@ -52,6 +55,24 @@ const services = [
     title: "Segurança Digital",
     description:
       "Proteção contra ameaças cibernéticas, antivírus corporativo, monitoramento de rede, backup em nuvem e políticas de segurança.",
+  },
+  {
+    icon: ScanBarcode,
+    title: "Automação Comercial",
+    description:
+      "Implantação de sistemas PDV, leitores de código de barras, impressoras fiscais, balanças e softwares de gestão para o seu comércio.",
+  },
+  {
+    icon: Cctv,
+    title: "CFTV",
+    description:
+      "Projeto, instalação e manutenção de sistemas de câmeras de segurança, DVR/NVR, monitoramento remoto via celular e armazenamento em nuvem.",
+  },
+  {
+    icon: DoorOpen,
+    title: "Porteiro Eletrônico",
+    description:
+      "Instalação e configuração de interfones, vídeo porteiros, fechaduras eletrônicas e sistemas de controle de acesso para residências e empresas.",
   },
 ]
 
