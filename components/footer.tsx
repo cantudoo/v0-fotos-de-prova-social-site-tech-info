@@ -53,6 +53,9 @@ export function Footer() {
                 <MapPin className="h-4 w-4" />
                 Ipanema - Rio de Janeiro, Brasil
               </span>
+              <span className="mt-2 text-xs text-muted-foreground/70">
+                CNPJ: 59.506.112/0001-61
+              </span>
             </div>
           </div>
 
@@ -136,6 +139,9 @@ export function Footer() {
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-6 sm:flex-row">
           <p className="text-xs text-muted-foreground">
             {new Date().getFullYear()} CANTUDO TECH INFO. Todos os direitos reservados.
+          </p>
+          <p className="text-xs text-muted-foreground">
+            CNPJ: 59.506.112/0001-61
           </p>
           <p className="text-xs text-muted-foreground">
             Ipanema - Rio de Janeiro, RJ
