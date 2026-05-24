@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://cantudotechinfo.com.br' // Altere para a URL correta do seu site
+  const baseUrl = 'https://www.cantudotechinfo.com.br'
 
   return [
     {
